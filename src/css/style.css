@@ -1,0 +1,34 @@
+#ttl{
+    color: hotpink;
+    font-size: 60px;
+    font-style: bold;;
+}
+
+body{
+    background-image: url(././img/2493119.png);
+}
+
+button{
+    margin: 20px;
+    background-color: pink;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse
+}
+
+table th{
+    padding: 10px 30px;
+}
+
+table th,table td{
+    border: solid 1px black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
