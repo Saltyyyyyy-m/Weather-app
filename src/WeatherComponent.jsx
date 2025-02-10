@@ -54,8 +54,8 @@ const extractTodayWeather = (data) => {
     return {
       date: formatDate(rawDate),
       weather: getWeatherText(weatherText),
-      temperature: data[0]?.timeSeries[2]?.areas[2]?.temps[1]
-        ? `${data[2].timeSeries[1].areas[0].temps[1]}℃`
+      temperature: data[1]?.timeSeries[2]?.areas[0]?.temps[1]
+        ? `${data[1].timeSeries[2].areas[0].temps[1]}℃`
         : '不明',
       precipitation: data[0]?.timeSeries[1]?.areas[0]?.pops[0]
         ? `${data[0].timeSeries[1]?.areas[0]?.pops[0]}%`
